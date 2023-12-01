@@ -1,6 +1,6 @@
 import { Component, DoCheck, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { environment } from 'src/config';
+import { environment } from '../../../src/config';
 @Component({
   selector: 'app-weather-dashboard',
   templateUrl: './weather-dashboard.component.html',
